@@ -6,14 +6,14 @@ public class SubSEt3 {
         int i=0,j=0;
         Arrays.sort(a1);
         Arrays.sort(a2);
-        boolean answer=false;
+       
         while(i<a1.length&& j<a2.length)
         {
             if(a1[i]==a2[j])
             {
                 i++;
                 j++;
-                answer=true;
+              
             }
             else if(a1[i]<a2[j])
             {
