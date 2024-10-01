@@ -1,4 +1,5 @@
 public class SEI {
+
     public static int singleElement(int[]array)
     {
         for(int i=0;i<array.length;i++)
