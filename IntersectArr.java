@@ -14,7 +14,7 @@ public class IntersectArr {
             {
                 set.add(a1[i]);
                 i++;
-                j++;
+                j++;    
             }
             else if(a1[i]<a2[j]){
                 i++;
