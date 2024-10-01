@@ -9,7 +9,7 @@ public class Sqrt2 {
         {
             return (int)n;
         }
-        long l=1 ,r=n;
+        long l=1l ,r=n;
         int ans=1;
         while(l<=r)
         {
