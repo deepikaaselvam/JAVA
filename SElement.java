@@ -1,7 +1,8 @@
 public class SElement {
-    public static int singleElementInArray(int[]array)
+    public  int singleElementInArray(int[]array)
     {
         int xor=0;
+        
         for(int i=0;i<array.length;i++)
         {
             xor=xor^array[i];
@@ -10,7 +11,8 @@ public class SElement {
     }
     public static void main(String[] args) {
         int[]array={1,1,2,2,3,4,4,5,5};
-        System.out.print(singleElementInArray(array));;
+        SElement s=new SElement();
+        System.out.print(s.singleElementInArray(array));;
     }
     
 }
