@@ -34,7 +34,7 @@ public class CntMn {
             }
         }
         System.out.println(cnt);
-
+        sc.close();
         
     }
     
